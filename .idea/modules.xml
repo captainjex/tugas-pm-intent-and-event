@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyIntent.iml" filepath="$PROJECT_DIR$/MyIntent.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tugas-pm-intent-and-event.iml" filepath="$PROJECT_DIR$/tugas-pm-intent-and-event.iml" />
     </modules>
   </component>
 </project>

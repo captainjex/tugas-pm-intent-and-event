@@ -4,32 +4,40 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.wkwksama.myintent.MainActivity"
+    android:baselineAligned="false"
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="wrap_content"
+        style="@style/TextFew"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Latihan Intent" />
+        android:text="Latihan Intent"
+        android:layout_gravity="center"/>
 
     <Button
+        style="@style/button"
         android:id="@+id/btn_main_dial"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:text="Phone Dial"/>
+
+
     <Button
+        style="@style/button"
+        android:backgroundTint="#d44"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:id="@+id/btn_main_browser"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Open Browser"/>
+        android:text="Open Browser" />
+
     <Button
+        style="@style/button"
+        android:backgroundTint="#55f"
         android:id="@+id/btn_main_opengallery"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:text="Open Gallery"/>
 
 </LinearLayout>
